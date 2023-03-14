@@ -38,4 +38,9 @@ class SplashFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_splash, container, false)
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        handlerSplash.removeCallbacksAndMessages(null)
+    }
+
 }

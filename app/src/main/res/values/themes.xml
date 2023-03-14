@@ -15,7 +15,4 @@
 
     </style>
 
-    <style name="Theme.AndroiSplashTest.Splash">
-        <item name="android:windowBackground">@color/mybackground</item>
-    </style>
 </resources>
